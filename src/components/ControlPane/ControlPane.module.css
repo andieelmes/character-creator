@@ -9,7 +9,20 @@
     a little gross, but we haven't seen the tools
     to deal with it yet!
   */
-  margin-bottom: 32px;
+  width: 315px;
+  flex-shrink: 0;
+  align-self: flex-start;
+  margin: 0 20px;
+  scroll-snap-align: start;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .controlPane {
+    width: auto;
+    margin: 0 0 32px;
+  }
 }
 
 .title {

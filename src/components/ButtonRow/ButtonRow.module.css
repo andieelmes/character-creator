@@ -1,2 +1,7 @@
 .buttonRow {
+  white-space: nowrap;
+  overflow: auto;
+  padding-top: 20px;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 2px;
 }
